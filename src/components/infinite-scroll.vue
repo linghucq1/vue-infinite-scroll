@@ -3,7 +3,7 @@
     <div class="wrap" v-for="panel in scrollList" :key="panel.page" :class="panel.ref" :ref="panel.ref">
       <div class="list">
         <div v-for="(item, index) in panel.list" :key="item[uniqueKey] || index" :ref="item.ref" :id="item.id">
-          <slot :item="item" :index="index"></slot>
+          <slot :item="item"></slot>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
   <div id="app">
     <div class="scroll">
       <InfiniteScroll :loadMore="getList" unique-key="name" :page-size="pageSize">
-        <template v-slot="{ item, index }">
+        <template v-slot="{ item }">
           <div class="user-item">
             <img class="avatar" :src="item.avatar" alt="">
             <div class="user">
