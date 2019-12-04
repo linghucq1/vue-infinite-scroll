@@ -1,4 +1,4 @@
-# infinite-scroll
+# a vue infinite scroll demo
 
 ## Project setup
 ```
